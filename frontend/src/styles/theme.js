@@ -58,6 +58,10 @@ const customTheme = extendTheme({
         fontFamily: 'mono',
         color: '#a0aec0',
         textDecoration: 'none'
+      },
+
+      li: {
+        listStyle: 'none'
       }
     }
   }
