@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "menus",
+  "info": {
+    "name": "menu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "link.link",
+      "max": 6,
+      "min": 3
+    },
+    "social_link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social.social-link"
+    }
+  }
+}

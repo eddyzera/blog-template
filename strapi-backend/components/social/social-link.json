@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_social_social_links",
+  "info": {
+    "name": "social_link",
+    "icon": "user-circle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "maxLength": 2,
+      "minLength": 2,
+      "default": "YT"
+    },
+    "url": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    }
+  }
+}
